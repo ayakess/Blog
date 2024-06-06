@@ -22,11 +22,11 @@ const Home = () => {
             <p className="text-gray-700 text-center">Consultez mon CV détaillé</p>
         </NavLink>
 
-                <a href="/formulaire" className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center">
+                  <NavLink to="/formulaire" className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center">
                     <FaEnvelope size={40} color="#3182CE" />
-                    <h2 className="text-2xl font-bold my-4 text-blue-600">Formulaire </h2>
+                    <h2 className="text-2xl font-bold my-4 text-blue-600">Formulaire. </h2>
                     <p className="text-gray-700 text-center">Remplissez le formulaire</p>
-                </a>
+                </NavLink>
 
                
             </div>
