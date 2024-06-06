@@ -18,7 +18,7 @@ const Home = () => {
             className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center"
         >
             <FaFileAlt size={40} color="#3182CE" />
-            <h2 className="text-2xl font-bold my-4 text-blue-600">Mon CV</h2>
+            <h2 className="text-2xl font-bold my-4 text-blue-600">My CV</h2>
             <p className="text-gray-700 text-center">Consultez mon CV détaillé</p>
         </NavLink>
 
